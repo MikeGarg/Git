@@ -1,0 +1,20 @@
+git config --global user.name "nombre"
+git config --global user.email "email" (arroba== alt+6+4)
+
+Carpeta Local	| Git Index 	| Git Head 	| Remoto <GitHub>
+git init	| git add	| git commit	| git push
+
+git status (ver estado de archivos del Index)
+
+git init (Inicializar repositorio local) (master)
+
+git add -A (Indexar todo)
+git add <archivo> (Indexar seleccion)
+git rm --cached <nombreDeArchivo.txt> (elimina archivo del index - rm==remove)
+
+git commit -m "mensaje" (Commit to Head con mensaje)
+git log (Muestra listas de commit's en Head)
+git reset --hard HEAD^ (elimina ultimo commit realizado) *cuidado
+
+//git remote add origin <url>
+git push origin main
